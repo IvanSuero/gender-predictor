@@ -1,0 +1,76 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25%;
+    justify-content: center;
+    width: 100%;
+    margin-top: 72px;
+}
+
+form{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+table.male{
+    box-shadow: 0px 0px 10px 10px #1E90FF;
+}
+
+table.female{
+    box-shadow: 0px 0px 10px 10px #FF69B4;
+}
+
+table{
+    transition: transform 0.5s;
+}
+
+table:hover{
+    transform: scale(1.2);
+}
+
+thead{
+    background-color: white;
+}
+
+tr{
+    border: 2px solid white;
+}
+
+td{
+    text-align: center;
+}
+
+.male-icon, .female-icon{
+    font-size: 102px;
+}
+
+.male-icon{
+    color: #1E90FF;
+}
+
+.female-icon{
+    color: #FF69B4;
+}
+
+.male tbody{
+    background-color: #1E90FF;
+}
+
+.female tbody{
+    background-color: #FF69B4;
+}
+
+.probability{
+    font-size: 116px;
+}

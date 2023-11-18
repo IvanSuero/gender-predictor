@@ -1,0 +1,4 @@
+# REACT APP FOR GENDER PREDICTIONS BY NAME
+
+    - API data fetch
+    
